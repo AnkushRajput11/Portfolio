@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="maindiv">
+      <div class="navdiv">
+        <div class="nav-logodiv">
+          <div class="logo-letter-highlight">A</div>
+        </div>
+        <div class="nav-menudiv">
+          <div>
+            <ul>
+              <li><a href="#" id="h" onclick="changeColor('h')">Home</a></li>
+              <li>
+                <a href="#about" id="a" onclick="changeColor('a')">About</a>
+              </li>
+              <li>
+                <a href="#skills" id="s" onclick="changeColor('s')">Skills</a>
+              </li>
+              <li>
+                <a href="#projects" id="p" onclick="changeColor('p')"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a href="#contact" id="c" onclick="changeColor('c')">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="social-media">
+          <div id="github">
+            <a
+              href="https://github.com/AnkushRajput11?tab=repositories"
+              target="_blank"
+            >
+              <img src="github.png" height="23px" width="23px" />
+            </a>
+          </div>
+          <div id="linkedin">
+            <a
+              href="https://www.linkedin.com/in/ankushrajput0075/"
+              target="_blank"
+            >
+              <img src="linkedin.png" height="24px" width="24px" />
+            </a>
+          </div>
+          <div id="twitter">
+            <a href="https://twitter.com/ANKUSHR24782924" target="_blank">
+              <img src="twitter.png" height="22px" width="22px" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contentdiv">
+        <div class="main-heading">
+          <div class="i1">Hi,</div>
+          <div class="i2">
+            I'm <span class="letter-highlight">A</span>nkush,
+          </div>
+          <div class="i3">full stack developer</div>
+        </div>
+
+        <div class="contact-button">
+          <a href="Resume.pdf" class="cb-color" target="blank">Resume</a>
+          <!-- <form>
+					<input type="submit" name="Contact" value="Contact me!">
+				</form> -->
+        </div>
+
+        <div class="handwritten-text">
+          <pre>
+					&lt;html&gt;
+						&lt;head&gt;
+
+						&lt;/head&gt;
+
+						&lt;body&gt;
+
+							&lt;h1&gt;  &lt;/h1&gt;
+							
+							&lt;p&gt;
+
+							&lt;/p&gt;
+
+						&lt;/body&gt;
+
+					&lt;/html&gt;
+				</pre
+          >
+        </div>
+
+        <!-- <div class="chat-button">
+				<input type="button" name="chatbox-button" value="" onclick="Chatbox()">
+			</div>
+			<div id="chatbox">
+				<div class="chat-head">Chat</div>
+				<div class="message-box">
+					<form>
+						<input type="text" name="message-box" placeholder="Reply" class="reply" autocomplete="off">
+						<input type="submit" name="submit" value="send" class="chat-submit">
+					</form>
+				</div>
+			</div> -->
+      </div>
+    </div>
+    <div id="about">
+      <div class="about-image"></div>
+      <h1>ABOUT</h1>
+      <div class="about-content">
+        <pre>
+Hello! I'm Ankush Rajput, a Full Stack Java Developer
+driven by a passion for creating impactful solutions. 
+I hold a Bachelor's degree with a CGPA of 9.28.
+
+As a developer, I possess a diverse skill set that includes 
+Core Java, Spring Boot, Rest APIs, Hibernate JPA, Servlets, 
+JDBC, Oracle SQL, HTML, CSS, and JavaScript. 
+
+Utilizing this knowledge I have built projects 
+to help me get clarity about the core concepts 
+also how these technologies can be used to build
+real-life end-to-end working applications.
+
+I am an avid learner, continuously exploring
+emerging technologies and industry trends.
+		</pre
+        >
+      </div>
+    </div>
+
+    <div id="skills">
+      <h1>SKILLS</h1>
+      <div class="skill-list">
+        <button onclick="changeContent('java')" id="java">Core Java</button>
+        <button onclick="changeContent('java')" id="java">Servlets</button>
+        <button onclick="changeContent('sql')" id="sql">JSP</button>
+        <button onclick="changeContent('sql')" id="sql">JDBC</button>
+        <button onclick="changeContent('sql')" id="sql">Spring Core</button>
+        <button onclick="changeContent('sql')" id="sql">Spring Boot</button>
+        <button onclick="changeContent('sql')" id="sql">
+          Hibernate with JPA
+        </button>
+        <button onclick="changeContent('sql')" id="sql">SQL</button>
+        <button onclick="changeContent('sql')" id="sql">HTML</button>
+        <button onclick="changeContent('sql')" id="sql">JavaScript</button>
+        <button onclick="changeContent('sql')" id="sql">CSS</button>
+        <button onclick="changeContent('sql')" id="sql">API Testing</button>
+      </div>
+      <!-- <div class="skill-content" id="skill-content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </div> -->
+    </div>
+    <div id="projects">
+      <h1>PROJECTS</h1>
+      <div class="project-div">
+        <div class="project-1"></div>
+        <div class="project-2"></div>
+        <div class="project-3"></div>
+      </div>
+    </div>
+    <div id="contact">
+      <h1>Contact Me</h1>
+
+      <div class="contact-content">
+        <pre>
+			Whether it's a job opportunity, an invite to coffee,
+			   or feedback on my portfolio, my inbox is open!</pre
+        >
+      </div>
+      <a
+        href="https://mail.google.com/mail/u/0/?to=ankushrajput0075@gmail.com&su=&body=&fs=1&tf=cm"
+      >
+        <span> <img src="email-icon.svg" /> </span> Send Email</a
+      >
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+
+    <!--
+		light mode
+	links social media functionality
+	email button functionality
+	type feature-->
+  </body>
+</html>
